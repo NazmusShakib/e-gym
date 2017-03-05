@@ -18,14 +18,14 @@
       <file leaf-file-name="new_entry.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5176">
-              <caret line="603" column="33" lean-forward="false" selection-start-line="603" selection-start-column="33" selection-end-line="603" selection-end-column="33" />
+            <state relative-caret-position="229">
+              <caret line="331" column="30" lean-forward="true" selection-start-line="331" selection-start-column="30" selection-end-line="331" selection-end-column="30" />
               <folding>
-                <marker date="1488694202194" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
-                <marker date="1488694202194" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
-                <marker date="1488694202194" expanded="true" signature="13679:13737" ph="select COUNT... user_data" />
-                <marker date="1488694202194" expanded="true" signature="14785:14841" ph="select * fro... subsciption" />
-                <marker date="1488694202194" expanded="true" signature="26271:26294" ph="select * fro... mem_types" />
+                <marker date="1488699493404" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
+                <marker date="1488699493404" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
+                <marker date="1488699493404" expanded="true" signature="13682:13740" ph="select COUNT... user_data" />
+                <marker date="1488699493404" expanded="true" signature="14788:14844" ph="select * fro... subsciption" />
+                <marker date="1488699493404" expanded="true" signature="26274:26297" ph="select * fro... mem_types" />
               </folding>
             </state>
           </provider>
@@ -34,16 +34,16 @@
       <file leaf-file-name="new_submit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="294">
+              <caret line="290" column="94" lean-forward="true" selection-start-line="290" selection-start-column="94" selection-end-line="290" selection-end-column="94" />
               <folding>
-                <marker date="1488694669055" expanded="true" signature="56:96" ph="select * fro... user_data" />
-                <marker date="1488694669055" expanded="true" signature="229:267" ph="DELETE FROM " />
-                <marker date="1488694669055" expanded="true" signature="811:864" ph="select * fro... mem_types" />
-                <marker date="1488694669055" expanded="true" signature="1980:2020" ph="select * fro... user_data" />
-                <marker date="1488694669055" expanded="true" signature="2265:2497" ph="UPDATE user_... " />
-                <marker date="1488694669055" expanded="true" signature="2569:2812" ph="INSERT INTO subsciption... " />
-                <marker date="1488694669055" expanded="true" signature="2931:2978" ph="UPDATE user_... " />
+                <marker date="1488699633219" expanded="true" signature="56:96" ph="select * fro... user_data" />
+                <marker date="1488699633219" expanded="true" signature="229:267" ph="DELETE FROM " />
+                <marker date="1488699633219" expanded="true" signature="806:859" ph="select * fro... mem_types" />
+                <marker date="1488699633219" expanded="true" signature="1975:2015" ph="select * fro... user_data" />
+                <marker date="1488699633219" expanded="true" signature="2260:2492" ph="UPDATE user_... " />
+                <marker date="1488699633219" expanded="true" signature="2564:2807" ph="INSERT INTO subsciption... " />
+                <marker date="1488699633219" expanded="true" signature="2926:2973" ph="UPDATE user_... " />
               </folding>
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file leaf-file-name="db_conn.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="140">
               <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
@@ -61,9 +61,15 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>country</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php" />
         <option value="$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php" />
       </list>
     </option>
@@ -163,19 +169,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1564000" />
+    <option name="totallyTimeSpent" value="1810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20485584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19954476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -199,20 +205,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5176">
-          <caret line="603" column="33" lean-forward="false" selection-start-line="603" selection-start-column="33" selection-end-line="603" selection-end-column="33" />
-          <folding>
-            <marker date="1488694202194" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
-            <marker date="1488694202194" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
-            <marker date="1488694202194" expanded="true" signature="13679:13737" ph="select COUNT... user_data" />
-            <marker date="1488694202194" expanded="true" signature="14785:14841" ph="select * fro... subsciption" />
-            <marker date="1488694202194" expanded="true" signature="26271:26294" ph="select * fro... mem_types" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -221,18 +213,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5427">
+          <caret line="468" column="0" lean-forward="true" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
+          <folding>
+            <marker date="1488699493404" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
+            <marker date="1488699493404" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
+            <marker date="1488699493404" expanded="true" signature="13682:13740" ph="select COUNT... user_data" />
+            <marker date="1488699493404" expanded="true" signature="14788:14844" ph="select * fro... subsciption" />
+            <marker date="1488699493404" expanded="true" signature="26274:26297" ph="select * fro... mem_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="378">
+          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
           <folding>
-            <marker date="1488694669055" expanded="true" signature="56:96" ph="select * fro... user_data" />
-            <marker date="1488694669055" expanded="true" signature="229:267" ph="DELETE FROM " />
-            <marker date="1488694669055" expanded="true" signature="811:864" ph="select * fro... mem_types" />
-            <marker date="1488694669055" expanded="true" signature="1980:2020" ph="select * fro... user_data" />
-            <marker date="1488694669055" expanded="true" signature="2265:2497" ph="UPDATE user_... " />
-            <marker date="1488694669055" expanded="true" signature="2569:2812" ph="INSERT INTO subsciption... " />
-            <marker date="1488694669055" expanded="true" signature="2931:2978" ph="UPDATE user_... " />
+            <marker date="1488699633219" expanded="true" signature="56:96" ph="select * fro... user_data" />
+            <marker date="1488699633219" expanded="true" signature="229:267" ph="DELETE FROM " />
+            <marker date="1488699633219" expanded="true" signature="806:859" ph="select * fro... mem_types" />
+            <marker date="1488699633219" expanded="true" signature="1975:2015" ph="select * fro... user_data" />
+            <marker date="1488699633219" expanded="true" signature="2260:2492" ph="UPDATE user_... " />
+            <marker date="1488699633219" expanded="true" signature="2564:2807" ph="INSERT INTO subsciption... " />
+            <marker date="1488699633219" expanded="true" signature="2926:2973" ph="UPDATE user_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6743">
+          <caret line="341" column="49" lean-forward="true" selection-start-line="341" selection-start-column="49" selection-end-line="341" selection-end-column="49" />
+          <folding>
+            <marker date="1488699493404" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
+            <marker date="1488699493404" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
+            <marker date="1488699493404" expanded="true" signature="13682:13740" ph="select COUNT... user_data" />
+            <marker date="1488699493404" expanded="true" signature="14788:14844" ph="select * fro... subsciption" />
+            <marker date="1488699493404" expanded="true" signature="26274:26297" ph="select * fro... mem_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <marker date="1488699633219" expanded="true" signature="56:96" ph="select * fro... user_data" />
+            <marker date="1488699633219" expanded="true" signature="229:267" ph="DELETE FROM " />
+            <marker date="1488699633219" expanded="true" signature="806:859" ph="select * fro... mem_types" />
+            <marker date="1488699633219" expanded="true" signature="1975:2015" ph="select * fro... user_data" />
+            <marker date="1488699633219" expanded="true" signature="2260:2492" ph="UPDATE user_... " />
+            <marker date="1488699633219" expanded="true" signature="2564:2807" ph="INSERT INTO subsciption... " />
+            <marker date="1488699633219" expanded="true" signature="2926:2973" ph="UPDATE user_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="331" column="30" lean-forward="true" selection-start-line="331" selection-start-column="30" selection-end-line="331" selection-end-column="30" />
+          <folding>
+            <marker date="1488699493404" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
+            <marker date="1488699493404" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
+            <marker date="1488699493404" expanded="true" signature="13682:13740" ph="select COUNT... user_data" />
+            <marker date="1488699493404" expanded="true" signature="14788:14844" ph="select * fro... subsciption" />
+            <marker date="1488699493404" expanded="true" signature="26274:26297" ph="select * fro... mem_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="290" column="94" lean-forward="true" selection-start-line="290" selection-start-column="94" selection-end-line="290" selection-end-column="94" />
+          <folding>
+            <marker date="1488699633219" expanded="true" signature="56:96" ph="select * fro... user_data" />
+            <marker date="1488699633219" expanded="true" signature="229:267" ph="DELETE FROM " />
+            <marker date="1488699633219" expanded="true" signature="806:859" ph="select * fro... mem_types" />
+            <marker date="1488699633219" expanded="true" signature="1975:2015" ph="select * fro... user_data" />
+            <marker date="1488699633219" expanded="true" signature="2260:2492" ph="UPDATE user_... " />
+            <marker date="1488699633219" expanded="true" signature="2564:2807" ph="INSERT INTO subsciption... " />
+            <marker date="1488699633219" expanded="true" signature="2926:2973" ph="UPDATE user_... " />
           </folding>
         </state>
       </provider>

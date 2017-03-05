@@ -289,6 +289,7 @@ VALUES ('$p_id','$full_name','$mem_type','$date','$total','$paid','$expiry','$in
             subjected to expiration, otherwise 50 INR/Day will be charged.</br></br>4).All users should dress
             appropriately Or as per advised.</br></br>5).Smoking is NOT permitted at the Gym site.</br></br>6). A 1000
             INR for breaking/scracthing glasses belonging to "Galaxy the gym" will be imposed.
+        </p>
     </div>
 </aside>
 <center><br><br><a href="view_mem.php">Fitness Management System ( techdynamics.org)</center>

@@ -338,7 +338,7 @@ page_protect();
                                             }
                                         }
                                         $i = 1;
-                                        ?></a>
+                                        ?></span>
                                         <span>Total Members </span>
                             </div>
                         </li>

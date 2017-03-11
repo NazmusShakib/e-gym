@@ -3,8 +3,9 @@ $host     = "localhost"; // Host name
 $username = "root"; // Mysql username
 $password = "1"; // Mysql password
 $db_name  = "gym"; // Database name
+
 // Connect to server and select databse.
-$con      = mysqli_connect($host, $username, $password, $db_name);
+$con = mysqli_connect($host, $username, $password, $db_name);
 
 // Check connection
 if (mysqli_connect_errno($con)) {

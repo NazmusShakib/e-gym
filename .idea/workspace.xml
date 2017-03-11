@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8813102b-05c5-46ef-a786-f48908a5e673" name="Default" comment="" />
+    <list default="true" id="8813102b-05c5-46ef-a786-f48908a5e673" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php" afterPath="$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php" afterPath="$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +18,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="new_entry.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="331" column="30" lean-forward="true" selection-start-line="331" selection-start-column="30" selection-end-line="331" selection-end-column="30" />
+            <state relative-caret-position="8937">
+              <caret line="331" column="30" lean-forward="false" selection-start-line="331" selection-start-column="30" selection-end-line="331" selection-end-column="30" />
               <folding>
                 <marker date="1488699493404" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
                 <marker date="1488699493404" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
@@ -34,16 +38,16 @@
       <file leaf-file-name="new_submit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="290" column="94" lean-forward="true" selection-start-line="290" selection-start-column="94" selection-end-line="290" selection-end-column="94" />
+            <state relative-caret-position="324">
+              <caret line="96" column="32" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
               <folding>
-                <marker date="1488699633219" expanded="true" signature="56:96" ph="select * fro... user_data" />
-                <marker date="1488699633219" expanded="true" signature="229:267" ph="DELETE FROM " />
-                <marker date="1488699633219" expanded="true" signature="806:859" ph="select * fro... mem_types" />
-                <marker date="1488699633219" expanded="true" signature="1975:2015" ph="select * fro... user_data" />
-                <marker date="1488699633219" expanded="true" signature="2260:2492" ph="UPDATE user_... " />
-                <marker date="1488699633219" expanded="true" signature="2564:2807" ph="INSERT INTO subsciption... " />
-                <marker date="1488699633219" expanded="true" signature="2926:2973" ph="UPDATE user_... " />
+                <marker date="1488700455622" expanded="true" signature="56:96" ph="select * fro... user_data" />
+                <marker date="1488700455622" expanded="true" signature="305:343" ph="DELETE FROM " />
+                <marker date="1488700455622" expanded="true" signature="882:935" ph="select * fro... mem_types" />
+                <marker date="1488700455622" expanded="true" signature="2051:2091" ph="select * fro... user_data" />
+                <marker date="1488700455622" expanded="true" signature="2336:2568" ph="UPDATE user_... " />
+                <marker date="1488700455622" expanded="true" signature="2640:2883" ph="INSERT INTO subsciption... " />
+                <marker date="1488700455622" expanded="true" signature="3002:3049" ph="UPDATE user_... " />
               </folding>
             </state>
           </provider>
@@ -52,8 +56,18 @@
       <file leaf-file-name="db_conn.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="189">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_conn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/db_conn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,10 +80,14 @@
       <find>country</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php" />
+        <option value="$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php" />
         <option value="$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php" />
       </list>
     </option>
@@ -123,6 +141,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gym" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gym" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dashboard" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -147,12 +179,74 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -165,31 +259,32 @@
       <option name="presentableId" value="Default" />
       <updated>1488694274610</updated>
       <workItem from="1488694276318" duration="1564000" />
+      <workItem from="1488769772793" duration="614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1810000" />
+    <option name="totallyTimeSpent" value="4537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19954476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07814871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -205,6 +300,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488699493404" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
+            <marker date="1488699493404" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
+            <marker date="1488699493404" expanded="true" signature="13682:13740" ph="select COUNT... user_data" />
+            <marker date="1488699493404" expanded="true" signature="14788:14844" ph="select * fro... subsciption" />
+            <marker date="1488699493404" expanded="true" signature="26274:26297" ph="select * fro... mem_types" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -232,13 +341,13 @@
         <state relative-caret-position="378">
           <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
           <folding>
-            <marker date="1488699633219" expanded="true" signature="56:96" ph="select * fro... user_data" />
-            <marker date="1488699633219" expanded="true" signature="229:267" ph="DELETE FROM " />
-            <marker date="1488699633219" expanded="true" signature="806:859" ph="select * fro... mem_types" />
-            <marker date="1488699633219" expanded="true" signature="1975:2015" ph="select * fro... user_data" />
-            <marker date="1488699633219" expanded="true" signature="2260:2492" ph="UPDATE user_... " />
-            <marker date="1488699633219" expanded="true" signature="2564:2807" ph="INSERT INTO subsciption... " />
-            <marker date="1488699633219" expanded="true" signature="2926:2973" ph="UPDATE user_... " />
+            <marker date="1488700455622" expanded="true" signature="56:96" ph="select * fro... user_data" />
+            <marker date="1488700455622" expanded="true" signature="305:343" ph="DELETE FROM " />
+            <marker date="1488700455622" expanded="true" signature="882:935" ph="select * fro... mem_types" />
+            <marker date="1488700455622" expanded="true" signature="2051:2091" ph="select * fro... user_data" />
+            <marker date="1488700455622" expanded="true" signature="2336:2568" ph="UPDATE user_... " />
+            <marker date="1488700455622" expanded="true" signature="2640:2883" ph="INSERT INTO subsciption... " />
+            <marker date="1488700455622" expanded="true" signature="3002:3049" ph="UPDATE user_... " />
           </folding>
         </state>
       </provider>
@@ -270,29 +379,21 @@
         <state relative-caret-position="378">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <marker date="1488699633219" expanded="true" signature="56:96" ph="select * fro... user_data" />
-            <marker date="1488699633219" expanded="true" signature="229:267" ph="DELETE FROM " />
-            <marker date="1488699633219" expanded="true" signature="806:859" ph="select * fro... mem_types" />
-            <marker date="1488699633219" expanded="true" signature="1975:2015" ph="select * fro... user_data" />
-            <marker date="1488699633219" expanded="true" signature="2260:2492" ph="UPDATE user_... " />
-            <marker date="1488699633219" expanded="true" signature="2564:2807" ph="INSERT INTO subsciption... " />
-            <marker date="1488699633219" expanded="true" signature="2926:2973" ph="UPDATE user_... " />
+            <marker date="1488700455622" expanded="true" signature="56:96" ph="select * fro... user_data" />
+            <marker date="1488700455622" expanded="true" signature="305:343" ph="DELETE FROM " />
+            <marker date="1488700455622" expanded="true" signature="882:935" ph="select * fro... mem_types" />
+            <marker date="1488700455622" expanded="true" signature="2051:2091" ph="select * fro... user_data" />
+            <marker date="1488700455622" expanded="true" signature="2336:2568" ph="UPDATE user_... " />
+            <marker date="1488700455622" expanded="true" signature="2640:2883" ph="INSERT INTO subsciption... " />
+            <marker date="1488700455622" expanded="true" signature="3002:3049" ph="UPDATE user_... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_entry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="331" column="30" lean-forward="true" selection-start-line="331" selection-start-column="30" selection-end-line="331" selection-end-column="30" />
+        <state relative-caret-position="8937">
+          <caret line="331" column="30" lean-forward="false" selection-start-line="331" selection-start-column="30" selection-end-line="331" selection-end-column="30" />
           <folding>
             <marker date="1488699493404" expanded="true" signature="11450:11506" ph="select * fro... subsciption" />
             <marker date="1488699493404" expanded="true" signature="12580:12626" ph="select COUNT... user_data" />
@@ -305,17 +406,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/new_submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="290" column="94" lean-forward="true" selection-start-line="290" selection-start-column="94" selection-end-line="290" selection-end-column="94" />
+        <state relative-caret-position="324">
+          <caret line="96" column="32" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
           <folding>
-            <marker date="1488699633219" expanded="true" signature="56:96" ph="select * fro... user_data" />
-            <marker date="1488699633219" expanded="true" signature="229:267" ph="DELETE FROM " />
-            <marker date="1488699633219" expanded="true" signature="806:859" ph="select * fro... mem_types" />
-            <marker date="1488699633219" expanded="true" signature="1975:2015" ph="select * fro... user_data" />
-            <marker date="1488699633219" expanded="true" signature="2260:2492" ph="UPDATE user_... " />
-            <marker date="1488699633219" expanded="true" signature="2564:2807" ph="INSERT INTO subsciption... " />
-            <marker date="1488699633219" expanded="true" signature="2926:2973" ph="UPDATE user_... " />
+            <marker date="1488700455622" expanded="true" signature="56:96" ph="select * fro... user_data" />
+            <marker date="1488700455622" expanded="true" signature="305:343" ph="DELETE FROM " />
+            <marker date="1488700455622" expanded="true" signature="882:935" ph="select * fro... mem_types" />
+            <marker date="1488700455622" expanded="true" signature="2051:2091" ph="select * fro... user_data" />
+            <marker date="1488700455622" expanded="true" signature="2336:2568" ph="UPDATE user_... " />
+            <marker date="1488700455622" expanded="true" signature="2640:2883" ph="INSERT INTO subsciption... " />
+            <marker date="1488700455622" expanded="true" signature="3002:3049" ph="UPDATE user_... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/auth_l_5/db_conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/db_conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

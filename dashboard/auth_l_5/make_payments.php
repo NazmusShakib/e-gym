@@ -329,7 +329,7 @@ e-GYM</a>
         }
     }
     $i = 1;
-?></a>
+?></span>
 									<span>Total Members </span>
 								</div>
 							</li>

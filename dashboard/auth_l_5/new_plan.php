@@ -307,7 +307,7 @@ if (mysqli_affected_rows($con) != 0) {
     }
 }
 $i = 1;
-?></a>
+?></span>
 									<span>Total Members </span>
 								</div>
 							</li>

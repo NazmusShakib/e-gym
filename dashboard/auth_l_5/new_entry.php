@@ -1,8 +1,8 @@
 ﻿<?php
 require 'db_conn.php';
 page_protect();
-?><!doctype html>
-
+?>
+<!doctype html>
 
 <head><title>e-Gym ,A Complete Fitness Management & Administration System</title>
 

@@ -60,11 +60,17 @@ page_protect();
     <link rel="shortcut icon" href="img/favicon.ico" />
     <!-- Apple devices Homescreen icon -->
     <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
-
     <style>
         .container-fluid {
             /*background-image: url("https://previews.123rf.com/images/tawng/tawng1106/tawng110600061/9856007-Editable-vector-cutout-of-people-exercising-in-a-gym-with-background-shadow-made-using-a-gradient-me-Stock-Vector.jpg");
             background-color: #cccccc;*/
+        }
+        .carousel{
+            background: #2f4357;
+            margin-top: 30px;
+        }
+        .carousel .item img{
+            margin: 0 auto; /* Align slide image horizontally center */
         }
     </style>
 </head>
@@ -311,7 +317,7 @@ page_protect();
                 </div>
             </div>
             <div class="row-fluid">
-                <div class="span9">
+                <div class="span9" style="margin: 0px -80px 0px 0px;">
                     <ul class="tiles">
                         <li class="blue">
                             <a href="sub_end.php"><span class='count'><i class="icon-star"></i> <?php
@@ -381,8 +387,35 @@ page_protect();
                         </li>
                     </ul>
                 </div>
-                <div class="clearfix"></div>
-                <div class="span3"></div>
+                <div class="span3" style="margin-right: 50px;">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="http://placehold.it/450x350/2e2e2e" alt="First Slide">
+                            </div>
+                            <div class="item">
+                                <img src="http://placehold.it/450x350/009988" alt="Second Slide">
+                            </div>
+                            <div class="item">
+                                <img src="http://placehold.it/450x350/000000" alt="Third Slide">
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <!--<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>-->
+                    </div>
+                </div>
             </div>
 
 

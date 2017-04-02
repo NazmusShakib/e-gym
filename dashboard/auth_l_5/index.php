@@ -363,12 +363,12 @@ page_protect();
                         <li class="blue long">
                             <a href="change_values.php"><span><i class="icon-cogs"></i></span><span class='name'>Change Membership Details</span></a>
                         </li>
-                        <li class="orange long">
+                        <!--<li class="orange long">
                             <a href="over_members_year.php"><span><i class="icon-calendar"></i></span><span class='name'>Members Garphs</span></a>
                         </li>
                         <li class="blue long">
                             <a href="revenue_month.php"><span><i class="icon-bolt"></i></span><span class='name'>Revenue Graph</span></a>
-                        </li>
+                        </li>-->
                         <li class="green long">
                             <a href="change_values.php"><span><i class="icon-eye-open"></i></span><span class='name'>Edit Plans</span></a>
                         </li>

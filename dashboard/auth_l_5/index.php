@@ -312,7 +312,7 @@ page_protect();
             <div class="row-fluid">
                 <div class="span9">
                     <ul class="tiles">
-                        <li class="red">
+                        <li class="blue">
                             <a href="sub_end.php"><span class='count'><i class="icon-star"></i> <?php
 
                                     $time    = time();
@@ -330,7 +330,7 @@ page_protect();
                                     $i = 1;
                                     ?></span><span class='name'>Ending Membership</span></a>
                         </li>
-                        <li class="orange">
+                        <li class="blue">
                             <a href="unpaid.php"><span class='count'><i class="icon-money"></i> <?php
                                     $date  = date('Y-m');
                                     $query = "select COUNT(*) from subsciption WHERE bal>0";
@@ -349,16 +349,16 @@ page_protect();
                         <li class="blue">
                             <a href="more-userprofile.php"><span><i class="icon-cogs"></i></span><span class='name'>Settings</span></a>
                         </li>
-                        <li class="green long">
+                        <li class="blue long">
                             <a href="new_entry.php"><span><i class="icon-money"></i></span><span class='name'>New Member Entry</span></a>
                         </li>
-                        <li class="lime long">
+                        <li class="blue long">
                             <a href="view_mem.php"><span><i class="icon-dashboard"></i></span><span class='name'>View/Edit Members</span></a>
                         </li>
                         <li class="blue">
                             <a href="new_plan.php"><span><i class="icon-shopping-cart"></i></span><span class='name'>New Plan</span></a>
                         </li>
-                        <li class="red long">
+                        <li class="blue long">
                             <a href="view_mem.php"><span><i class="icon-eye-open"></i></span><span class='name'>Generate Invoice</span></a>
                         <li class="blue long">
                             <a href="change_values.php"><span><i class="icon-cogs"></i></span><span class='name'>Change Membership Details</span></a>
@@ -369,13 +369,13 @@ page_protect();
                         <li class="blue long">
                             <a href="revenue_month.php"><span><i class="icon-bolt"></i></span><span class='name'>Revenue Graph</span></a>
                         </li>-->
-                        <li class="green long">
+                        <li class="blue long">
                             <a href="change_values.php"><span><i class="icon-eye-open"></i></span><span class='name'>Edit Plans</span></a>
                         </li>
-                        <li class="orange long">
+                        <li class="blue long">
                             <a href="payments.php"><span><i class="icon-calendar"></i></span><span class='name'>Make Payments</span></a>
                         </li>
-                        <li class="red">
+                        <li class="blue">
                             <a href="logout.php"><span class='count'><i class="icon-star"></i> </span><span class='name'>Logout</span></a>
                         </li>
                     </ul>

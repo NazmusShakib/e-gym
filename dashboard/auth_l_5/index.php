@@ -219,7 +219,7 @@ page_protect();
                                 <span>Paid Income This Month</span>
                             </div>
                         </li>
-                        <li class='brown'>
+                        <li class='blue'>
                             <i class="icon-bolt"></i>
                             <div class="details">
 									<span class="big"><?php
@@ -259,7 +259,7 @@ page_protect();
                                 <span>Joined This Month</span>
                             </div>
                         </li>
-                        <li class='green'>
+                        <li class='blue'>
                             <i class="icon-money"></i>
                             <div class="details">
 									<span class="big">INR <?php
@@ -279,7 +279,7 @@ page_protect();
                                 <span>Income This Month</span>
                             </div>
                         </li>
-                        <li class='orange'>
+                        <li class='blue'>
                             <i class="icon-calendar"></i>
                             <div class="details">
                                 <span class="big"></span>

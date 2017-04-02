@@ -196,99 +196,100 @@ page_protect();
                 <div class="pull-left">
                     <h1>Dashboard</h1>
                 </div>
-                <div class="pull-right">
+                <div class="" style="height: 100%; display: flex; justify-content: center; align-items: center;">
+                    <center>
+                        <ul class="stats">
+                            <li class='blue'>
+                                <i class="icon-money"></i>
+                                <div class="details">
+                                        <span class="big">INR <?php
+                                            $date  = date('Y-m');
+                                            $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
 
-                    <ul class="stats">
-                        <li class='blue'>
-                            <i class="icon-money"></i>
-                            <div class="details">
-									<span class="big">INR <?php
-                                        $date  = date('Y-m');
-                                        $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
-
-                                        //echo $query;
-                                        $result  = mysqli_query($con, $query);
-                                        $revenue = 0;
-                                        if (mysqli_affected_rows($con) != 0) {
-                                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                                $revenue = $row['paid'] + $revenue;
+                                            //echo $query;
+                                            $result  = mysqli_query($con, $query);
+                                            $revenue = 0;
+                                            if (mysqli_affected_rows($con) != 0) {
+                                                while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                                                    $revenue = $row['paid'] + $revenue;
+                                                }
                                             }
-                                        }
-                                        echo $revenue;
-                                        ?></span>
-                                <span>Paid Income This Month</span>
-                            </div>
-                        </li>
-                        <li class='blue'>
-                            <i class="icon-bolt"></i>
-                            <div class="details">
-									<span class="big"><?php
-                                        $date  = date('Y-m');
-                                        $query = "select COUNT(*) from user_data WHERE wait='no'";
+                                            echo $revenue;
+                                            ?></span>
+                                    <span>Paid Income This Month</span>
+                                </div>
+                            </li>
+                            <li class='blue'>
+                                <i class="icon-bolt"></i>
+                                <div class="details">
+                                        <span class="big"><?php
+                                            $date  = date('Y-m');
+                                            $query = "select COUNT(*) from user_data WHERE wait='no'";
 
-                                        //echo $query;
-                                        $result = mysqli_query($con, $query);
-                                        $i      = 1;
-                                        if (mysqli_affected_rows($con) != 0) {
-                                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                                echo $row['COUNT(*)'];
+                                            //echo $query;
+                                            $result = mysqli_query($con, $query);
+                                            $i      = 1;
+                                            if (mysqli_affected_rows($con) != 0) {
+                                                while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                                                    echo $row['COUNT(*)'];
+                                                }
                                             }
-                                        }
-                                        $i = 1;
-                                        ?></span>
-                                <span>Total Members </span>
-                            </div>
-                        </li>
-                        <li class='blue'>
-                            <i class="icon-shopping-cart"></i>
-                            <div class="details">
-									<span class="big"><?php
-                                        $date  = date('Y-m');
-                                        $query = "select COUNT(*) from user_data WHERE joining LIKE '$date%'";
+                                            $i = 1;
+                                            ?></span>
+                                    <span>Total Members </span>
+                                </div>
+                            </li>
+                            <li class='blue'>
+                                <i class="icon-shopping-cart"></i>
+                                <div class="details">
+                                        <span class="big"><?php
+                                            $date  = date('Y-m');
+                                            $query = "select COUNT(*) from user_data WHERE joining LIKE '$date%'";
 
-                                        //echo $query;
-                                        $result = mysqli_query($con, $query);
-                                        $i      = 1;
-                                        if (mysqli_affected_rows($con) != 0) {
-                                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                                echo $row['COUNT(*)'];
+                                            //echo $query;
+                                            $result = mysqli_query($con, $query);
+                                            $i      = 1;
+                                            if (mysqli_affected_rows($con) != 0) {
+                                                while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                                                    echo $row['COUNT(*)'];
+                                                }
                                             }
-                                        }
-                                        $i = 1;
-                                        ?></span>
-                                <span>Joined This Month</span>
-                            </div>
-                        </li>
-                        <li class='blue'>
-                            <i class="icon-money"></i>
-                            <div class="details">
-									<span class="big">INR <?php
-                                        $date  = date('Y-m');
-                                        $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
+                                            $i = 1;
+                                            ?></span>
+                                    <span>Joined This Month</span>
+                                </div>
+                            </li>
+                            <li class='blue'>
+                                <i class="icon-money"></i>
+                                <div class="details">
+                                        <span class="big">INR <?php
+                                            $date  = date('Y-m');
+                                            $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
 
-                                        //echo $query;
-                                        $result  = mysqli_query($con, $query);
-                                        $revenue = 0;
-                                        if (mysqli_affected_rows($con) != 0) {
-                                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                                $revenue = $row['total'] + $revenue;
+                                            //echo $query;
+                                            $result  = mysqli_query($con, $query);
+                                            $revenue = 0;
+                                            if (mysqli_affected_rows($con) != 0) {
+                                                while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                                                    $revenue = $row['total'] + $revenue;
+                                                }
                                             }
-                                        }
-                                        echo $revenue;
+                                            echo $revenue;
+                                            ?></span>
+                                    <span>Income This Month</span>
+                                </div>
+                            </li>
+                            <li class='blue'>
+                                <i class="icon-calendar"></i>
+                                <div class="details">
+                                    <span class="big"></span>
+                                    <span><?php
+                                        echo date('Z');
                                         ?></span>
-                                <span>Income This Month</span>
-                            </div>
-                        </li>
-                        <li class='blue'>
-                            <i class="icon-calendar"></i>
-                            <div class="details">
-                                <span class="big"></span>
-                                <span><?php
-                                    echo date('Z');
-                                    ?></span>
-                            </div>
-                        </li>
-                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </center>
                 </div>
             </div>
             <div class="breadcrumbs">
@@ -349,16 +350,16 @@ page_protect();
                         <li class="blue">
                             <a href="more-userprofile.php"><span><i class="icon-cogs"></i></span><span class='name'>Settings</span></a>
                         </li>
-                        <li class="blue long">
+                        <li class="blue">
                             <a href="new_entry.php"><span><i class="icon-money"></i></span><span class='name'>New Member Entry</span></a>
                         </li>
-                        <li class="blue long">
+                        <li class="blue">
                             <a href="view_mem.php"><span><i class="icon-dashboard"></i></span><span class='name'>View/Edit Members</span></a>
                         </li>
                         <li class="blue">
                             <a href="new_plan.php"><span><i class="icon-shopping-cart"></i></span><span class='name'>New Plan</span></a>
                         </li>
-                        <li class="blue long">
+                        <li class="blue">
                             <a href="view_mem.php"><span><i class="icon-eye-open"></i></span><span class='name'>Generate Invoice</span></a>
                         <li class="blue long">
                             <a href="change_values.php"><span><i class="icon-cogs"></i></span><span class='name'>Change Membership Details</span></a>

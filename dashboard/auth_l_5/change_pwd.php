@@ -256,7 +256,11 @@ if (mysqli_affected_rows($con) != 0) {
     }
 }
 $i = 1;
+<<<<<<< HEAD
 ?></a>
+=======
+?></span>
+>>>>>>> origin/master
 									<span>Total Members </span>
 								</div>
 							</li>

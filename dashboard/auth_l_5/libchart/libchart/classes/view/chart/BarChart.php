@@ -169,6 +169,7 @@
             }
             
             return $pointList;
+<<<<<<< HEAD
         }
         
         /**
@@ -179,5 +180,17 @@
         public function getBound() {
             return $this->bound;
         }
+=======
+        }
+        
+        /**
+         * Retourns the bound.
+         *
+         * @return bound Bound
+         */
+        public function getBound() {
+            return $this->bound;
+        }
+>>>>>>> origin/master
     }
 ?>

@@ -1,11 +1,18 @@
 ﻿<?php
 require 'db_conn.php';
 page_protect();
+<<<<<<< HEAD
 ?>
 <!DOCTYPE html>
 
 
 <head><title>Power-Gym , A Complete Fitness Management System</title>
+=======
+?><!doctype html>
+
+
+<head><title>e-Gym ,A Complete Fitness Management & Administration System</title>
+>>>>>>> origin/master
 		<meta charset="utf8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<!-- Apple devices fullscreen -->
@@ -60,6 +67,7 @@ page_protect();
 	<link rel="shortcut icon" href="img/favicon.ico" />
 	<!-- Apple devices Homescreen icon -->
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
+<<<<<<< HEAD
 	
 	<style>
 
@@ -69,12 +77,25 @@ page_protect();
 }
     </style>
 
+=======
+
+    <style>
+        .container-fluid {
+            background-image: url("https://previews.123rf.com/images/tawng/tawng1106/tawng110600061/9856007-Editable-vector-cutout-of-people-exercising-in-a-gym-with-background-shadow-made-using-a-gradient-me-Stock-Vector.jpg");
+            background-color: #cccccc;
+        }
+    </style>
+>>>>>>> origin/master
 </head>
 <body>
 	<div id="navigation">
 		<div class="container-fluid">
 			<a href="index.php" id="brand">
+<<<<<<< HEAD
 Power-Gym</a>			
+=======
+e-GYM</a>			
+>>>>>>> origin/master
 			<ul class='main-nav'>
 				<li class='active'>
 					<a href="index.php">
@@ -203,7 +224,11 @@ if ($_SESSION['sex'] == 'male') {
 	
 <div class="container-fluid" id="content">
   <div id="main">
+<<<<<<< HEAD
 	  <div class="container-fluid backgoundImg">
+=======
+	  <div class="container-fluid">
+>>>>>>> origin/master
 				<div class="page-header">
 					<div class="pull-left">
 						<h1>Dashboard</h1>
@@ -213,7 +238,11 @@ if ($_SESSION['sex'] == 'male') {
 						<ul class="stats"><li class='blue'>
 								<i class="icon-money"></i>
 								<div class="details">
+<<<<<<< HEAD
 									<span class="big">BDT <?php
+=======
+									<span class="big">INR <?php
+>>>>>>> origin/master
 $date  = date('Y-m');
 $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
 
@@ -245,7 +274,11 @@ if (mysqli_affected_rows($con) != 0) {
     }
 }
 $i = 1;
+<<<<<<< HEAD
 ?></a>
+=======
+?></span>
+>>>>>>> origin/master
 									<span>Total Members </span>
 								</div>
 							</li>
@@ -272,7 +305,11 @@ $i = 1;
 							<li class='green'>
 								<i class="icon-money"></i>
 								<div class="details">
+<<<<<<< HEAD
 									<span class="big">BDT <?php
+=======
+									<span class="big">INR <?php
+>>>>>>> origin/master
 $date  = date('Y-m');
 $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
 
@@ -398,10 +435,17 @@ $i = 1;
 				
 				</div>	</div>
 				</div> <div class="alert alert-info">
+<<<<<<< HEAD
 									<center><h4>Power-Gym ,A Complete Fitness Management System</h4>
 									<p><a href="#">Developed By PowerSoft,Bangladesh</a> Powered 
 
 by Mithun & Aziz</p></center>
+=======
+									<center><h4>e-Gym ,A Complete Fitness Management & Administration System</h4>
+									<p><a href="http://techdynamics.org">Developed By TechDynamics INDIA</a> Powered 
+
+By Saba Wasim</p></center>
+>>>>>>> origin/master
 								</div>
 			</div>
 		</div></div>

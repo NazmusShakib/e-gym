@@ -18,7 +18,11 @@ if (isset($_POST['name'])) {
 ?><!doctype html>
 
 
+<<<<<<< HEAD
 <head><title>Power-Gym,A Complete Fitness Management System</title>
+=======
+<head><title>e-Gym ,A Complete Fitness Management & Administration System</title>
+>>>>>>> origin/master
 	
 		<meta charset="utf8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -158,7 +162,11 @@ function checkIt(evt) {
 	<div id="navigation">
 		<div class="container-fluid">
 			<a href="index.php" id="brand">
+<<<<<<< HEAD
 Power-Gym</a>			
+=======
+e-GYM</a>			
+>>>>>>> origin/master
 			<ul class='main-nav'>
 				<li>
 					<a href="index.php">
@@ -329,7 +337,11 @@ Power-Gym</a>
         }
     }
     $i = 1;
+<<<<<<< HEAD
 ?></a>
+=======
+?></span>
+>>>>>>> origin/master
 									<span>Total Members </span>
 								</div>
 							</li>
@@ -494,11 +506,18 @@ Power-Gym</a>
 						</div>
 					</div>
 				</div><div class="alert alert-info">
+<<<<<<< HEAD
 									<center><h4>Power-Gym, A Complete Fitness Management System</h4>
 									<p><a href="#">Developed By PowerSoft,Bangladesh</a> Powered 
 
 
 by Mithun & Aziz</p></center>
+=======
+									<center><h4>e-Gym ,A Complete Fitness Management & Administration System</h4>
+									<p><a href="http://techdynamics.org">Developed By TechDynamics INDIA</a> Powered 
+
+By Saba Wasim</p></center>
+>>>>>>> origin/master
 								</div>
 			</div>
 		</div></div>

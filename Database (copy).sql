@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 Table structure for table `auth_user`
-=======
---
--- Table structure for table `auth_user`
->>>>>>> origin/master
 --
 
 CREATE TABLE IF NOT EXISTS `auth_user` (

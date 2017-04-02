@@ -47,10 +47,17 @@
         /**
          * Constructor of Rectangle.
          *
+<<<<<<< HEAD
          * @param x1 Left edge coordinate
          * @param y1 Upper edge coordinate
          * @param x2 Right edge coordinate
          * @param y2 Bottom edge coordinate
+=======
+         * @param x1 Left edge coordinate
+         * @param y1 Upper edge coordinate
+         * @param x2 Right edge coordinate
+         * @param y2 Bottom edge coordinate
+>>>>>>> origin/master
          */
         public function Rectangle($x1, $y1, $x2, $y2) {
             $this->x1 = $x1;
@@ -60,7 +67,11 @@
         }
         
         /**
+<<<<<<< HEAD
          * Apply a padding and returns the resulting rectangle.
+=======
+         * Apply a padding and returns the resulting rectangle.
+>>>>>>> origin/master
          * The result is an enlarged rectangle.
          *
          * @return Padded rectangle

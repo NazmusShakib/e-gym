@@ -153,9 +153,15 @@ echo $invoice;
 		<header>
 			<a href="payments.php"><h1>Invoice (Payments)</h1></a>
 			<address>
+<<<<<<< HEAD
 				<h3>Power-Gym</h3>
 				<p> West Rajabazar Road, Dhaka 1215, Bangladesh<br></p>
 				<p>01789398972</p><br><p><div id="barcodeTarget" class="barcodeTarget"></div>
+=======
+				<p>Galaxy The Gym</p>
+				<p>101 E. Chaman Jhiinga Ave<br>Orange, CA 92866</p>
+				<p>(800) 555-1234</p><br><p><div id="barcodeTarget" class="barcodeTarget"></div>
+>>>>>>> origin/master
     <canvas id="canvasTarget"></canvas> </span>
 			</address>
 			<span><img alt="" src="logo.png">
@@ -231,17 +237,29 @@ echo $expiry;
 			<table class="balance">
 				<tr>
 					<th><span  >Total</span></th>
+<<<<<<< HEAD
 					<td><span data-prefix>BDT</span><span><?php
+=======
+					<td><span data-prefix>INR</span><span><?php
+>>>>>>> origin/master
 echo $total;
 ?></span></td>
 				</tr><tr>
 					<th><span  >Paid</span></th>
+<<<<<<< HEAD
 					<td><span data-prefix>BDT</span><span><?php
+=======
+					<td><span data-prefix>INR</span><span><?php
+>>>>>>> origin/master
 echo $paid;
 ?></span></td>
 				</tr><tr>
 					<th><span  >Due</span></th>
+<<<<<<< HEAD
 					<td><span data-prefix>BDT</span><span><?php
+=======
+					<td><span data-prefix>INR</span><span><?php
+>>>>>>> origin/master
 echo $total - $paid;
 ?></span></td>
 				</tr>
@@ -251,8 +269,17 @@ echo $total - $paid;
 		<aside>
 			<h1><span  >Additional Notes</span></h1>
 			<div  >
+<<<<<<< HEAD
 				<p>1). All members must abide our authorities rules otherwise membership may be removed. </br></br>2). The payment is not transferable and non-refundable.</br></br>3).Fee Should be submitted within 5 business days before subjected to expiration, otherwise 50 BDT/Day will be charged.</br></br>4).All users should dress appropriately Or as per advised.</br></br>5).Smoking is NOT permitted at the Gym site.</br></br>6). A 1000 BDT for breaking/scracthing glasses belonging to "Power-Gym" will be imposed.
 			</div>
 		</aside><center><br><br><a href="view_mem.php">Power-Gym</center>
+=======
+				<p>1). All members must abide our TnC / rules otherwise membership may be withdrawn. </br></br>
+                    2). The payment is not transferable and non-refundable.</br></br>
+                    3).Fee Should be submitted within 5 business days before subjected to expiration, otherwise 50 INR/Day will be charged.</br></br>4).All users should dress appropriately Or as per advised.</br></br>5).Smoking is NOT permitted at the Gym site.</br></br>6). A 1000 INR for breaking/scracthing glasses belonging to "Galaxy the gym" will be imposed.
+			</p>
+            </div>
+		</aside><center><br><br><a href="view_mem.php">Fitness Management System ( techdynamics.org)</center>
+>>>>>>> origin/master
 	</body>
 </html>

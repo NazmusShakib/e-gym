@@ -59,11 +59,19 @@
          */
         public function next() {
             $value = next($this->colorList);
+<<<<<<< HEAD
             next($this->shadowColorList);
             
             // When we go after the last value, loop over.
             if ($value == FALSE) {
                 $this->reset();
+=======
+            next($this->shadowColorList);
+            
+            // When we go after the last value, loop over.
+            if ($value == FALSE) {
+                $this->reset();
+>>>>>>> origin/master
             }
         }
 

@@ -1,10 +1,17 @@
 <?php
 $host     = "localhost"; // Host name 
 $username = "root"; // Mysql username 
+<<<<<<< HEAD
 $password = ""; // Mysql password 
 $db_name  = "gym_system"; // Database name 
 
 // Connect to server and select database.
+=======
+$password = "1"; // Mysql password 
+$db_name  = "gym"; // Database name 
+
+// Connect to server and select databse.
+>>>>>>> origin/master
 $con = mysqli_connect($host, $username, $password, $db_name);
 
 // Check connection

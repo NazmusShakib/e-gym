@@ -2,7 +2,11 @@
 
 <!doctype html>
 <html>
+<<<<<<< HEAD
 <head><title>Power-Gym Management System ,A Complete Fitness Management System</title>
+=======
+<head><title>e-Gym Management System ,A Complete Fitness Management & Administration System</title>
+>>>>>>> origin/master
 	<meta charset="utf8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<!-- Apple devices fullscreen -->
@@ -89,10 +93,17 @@
 	</div>
  <div class="alert alert-info">
 									<center>
+<<<<<<< HEAD
 									<h4>Power-Gym ,A Complete Fitness Management System</h4>
 									<p><a href="#">Developed By PowerSoft,Bangladesh</a> Powered 
 
 by Mithun & Aziz</p></center>
+=======
+									<h4>e-Gym ,A Complete Fitness Management & Administration System</h4>
+									<p><a href="http://techdynamics.org">Developed By TechDynamics INDIA</a> Powered 
+
+By Saba Wasim</p></center>
+>>>>>>> origin/master
 								</div>
 			</div>
 		</div></div>

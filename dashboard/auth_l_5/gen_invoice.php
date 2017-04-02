@@ -250,7 +250,12 @@ echo $total - $paid;
 			<h1><span  >Additional Notes</span></h1>
 			<div  >
 				<p>1). All members must abide our TnC / rules otherwise membership may be withdrawn. </br></br>2). The payment is not transferable and non-refundable.</br></br>3).Fee Should be submitted within 5 business days before subjected to expiration, otherwise 50 INR/Day will be charged.</br></br>4).All users should dress appropriately Or as per advised.</br></br>5).Smoking is NOT permitted at the Gym site.</br></br>6). A 1000 INR for breaking/scracthing glasses belonging to "Galaxy the gym" will be imposed.
+<<<<<<< HEAD
 			</div>
+=======
+			</p>
+            </div>
+>>>>>>> origin/master
 		</aside><center><br><br><a href="view_mem.php">Fitness Management System ( techdynamics.org)</center>
 	</body>
 </html>

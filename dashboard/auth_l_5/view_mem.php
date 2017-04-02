@@ -5,7 +5,11 @@ page_protect();
 ?><!doctype html>
 
 
+<<<<<<< HEAD
 <head><title>Power-Gym,A Complete Fitness Management System</title>
+=======
+<head><title>e-Gym ,A Complete Fitness Management & Administration System</title>
+>>>>>>> origin/master
 		<meta charset="utf8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<!-- Apple devices fullscreen -->
@@ -74,7 +78,11 @@ return false;
 	<div id="navigation">
 		<div class="container-fluid">
 			<a href="index.php" id="brand">
+<<<<<<< HEAD
 Power-Gym</a>			
+=======
+e-GYM</a>			
+>>>>>>> origin/master
 			<ul class='main-nav'>
 				<li>
 					<a href="index.php">
@@ -213,7 +221,11 @@ if ($_SESSION['sex'] == 'male') {
 						<ul class="stats"><li class='blue'>
 								<i class="icon-money"></i>
 								<div class="details">
+<<<<<<< HEAD
 									<span class="big">BDT <?php
+=======
+									<span class="big">INR <?php
+>>>>>>> origin/master
 $date  = date('Y-m');
 $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
 
@@ -245,7 +257,11 @@ if (mysqli_affected_rows($con) != 0) {
     }
 }
 $i = 1;
+<<<<<<< HEAD
 ?></a>
+=======
+?></span>
+>>>>>>> origin/master
 									<span>Total Members </span>
 								</div>
 							</li>
@@ -272,7 +288,11 @@ $i = 1;
 							<li class='green'>
 								<i class="icon-money"></i>
 								<div class="details">
+<<<<<<< HEAD
 									<span class="big">BDT <?php
+=======
+									<span class="big">INR <?php
+>>>>>>> origin/master
 $date  = date('Y-m');
 $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
 
@@ -391,10 +411,17 @@ if (mysqli_affected_rows($con) != 0) {
 				
 				</div>	</div>
 				</div> <div class="alert alert-info">
+<<<<<<< HEAD
 									<center><h4>Power-Gym ,A Complete Fitness Management System</h4>
 									<p><a href="#">Developed By PowerSoft, Bangladesh</a> Powered 
 
 Mithun & Aziz</p></center>
+=======
+									<center><h4>e-Gym ,A Complete Fitness Management & Administration System</h4>
+									<p><a href="http://techdynamics.org">Developed By TechDynamics INDIA</a> Powered 
+
+By Saba Wasim</p></center>
+>>>>>>> origin/master
 								</div>
 			</div>
 		</div></div>

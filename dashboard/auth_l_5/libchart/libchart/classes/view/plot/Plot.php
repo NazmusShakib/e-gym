@@ -49,6 +49,7 @@
      */
     class Plot {
         // Style properties
+<<<<<<< HEAD
         protected $title;
         
         /**
@@ -113,6 +114,72 @@
         
         /**
          * Coordinates of the caption area.
+=======
+        protected $title;
+        
+        /**
+         * Location of the logo. Can be overriden to your personalized logo.
+         */
+        protected $logoFileName;
+        
+        /**
+         * Outer area, whose dimension is the same as the PNG returned.
+         */
+        protected $outputArea;
+        
+        /**
+         * Outer padding surrounding the whole image, everything outside is blank.
+         */
+        protected $outerPadding;
+        
+        /**
+         * Coordinates of the area inside the outer padding.
+         */
+        protected $imageArea;
+        
+        /**
+         * Fixed title height in pixels.
+         */
+        protected $titleHeight;
+        
+        /**
+         * Padding of the title area.
+         */
+        protected $titlePadding;
+        
+        /**
+         *  Coordinates of the title area.
+         */
+        protected $titleArea;
+        
+        /**
+         * True if the plot has a caption.
+         */
+        protected $hasCaption;
+        
+        /**
+         * Ratio of graph/caption in width.
+         */
+        protected $graphCaptionRatio;
+        
+        /**
+         * Padding of the graph area.
+         */
+        protected $graphPadding;
+        
+        /**
+         * Coordinates of the graph area.
+         */
+        protected $graphArea;
+        
+        /**
+         * Padding of the caption area.
+         */
+        protected $captionPadding;
+        
+        /**
+         * Coordinates of the caption area.
+>>>>>>> origin/master
          */
         protected $captionArea;
         

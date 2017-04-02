@@ -162,18 +162,30 @@
                 list ($percent, $point) = $a;
 
                 // If value is null, don't draw this arc
+<<<<<<< HEAD
                 if ($percent <= 0) {
                     continue;
                 }
                 
+=======
+                if ($percent <= 0) {
+                    continue;
+                }
+                
+>>>>>>> origin/master
                 $color = $colorArray[$i % count($colorArray)];
 
                 $percentTotal += $percent;
                 $newAngle = $percentTotal * 360 / 100;
 
                 // imagefilledarc doesn't like null values (#1)
+<<<<<<< HEAD
                 if ($newAngle - $oldAngle >= 1) {
                     imagefilledarc($img, $this->pieCenterX, $cy, $this->pieWidth, $this->pieHeight, $oldAngle, $newAngle, $color->getColor($img), $mode);
+=======
+                if ($newAngle - $oldAngle >= 1) {
+                    imagefilledarc($img, $this->pieCenterX, $cy, $this->pieWidth, $this->pieHeight, $oldAngle, $newAngle, $color->getColor($img), $mode);
+>>>>>>> origin/master
                 }
 
                 $oldAngle = $newAngle;

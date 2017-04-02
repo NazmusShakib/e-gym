@@ -322,7 +322,11 @@ e-GYM</a>
         }
     }
     $i = 1;
+<<<<<<< HEAD
 ?></a>
+=======
+?></span>
+>>>>>>> origin/master
 									<span>Total Members </span>
 								</div>
 							</li>

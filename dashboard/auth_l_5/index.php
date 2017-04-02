@@ -4,15 +4,14 @@ page_protect();
 ?>
 <!Doctype html>
 <html>
-
 <head>
     <title>Power-Gym Management System ,A Complete Fitness Management System</title>
     <meta charset="utf8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- Apple devices fullscreen -->
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- Apple devices fullscreen -->
-    <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
@@ -29,8 +28,6 @@ page_protect();
     <link rel="stylesheet" href="../../css/style.css">
     <!-- Color CSS -->
     <!--<link rel="stylesheet" href="../../css/themes.css">-->
-
-    <link rel="stylesheet" href="../../css/font-awesome-4.7.0/css/font-awesome.css">
 
     <!-- jQuery -->
     <script src="../../js/jquery.min.js"></script>
@@ -60,14 +57,14 @@ page_protect();
     <!-- Just for demonstration -->
     <script src="../../js/demonstration.min.js"></script>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <!-- Apple devices Homescreen icon -->
-    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
 
     <style>
         .container-fluid {
-            background-image: url("https://previews.123rf.com/images/tawng/tawng1106/tawng110600061/9856007-Editable-vector-cutout-of-people-exercising-in-a-gym-with-background-shadow-made-using-a-gradient-me-Stock-Vector.jpg");
-            background-color: #cccccc;
+            /*background-image: url("https://previews.123rf.com/images/tawng/tawng1106/tawng110600061/9856007-Editable-vector-cutout-of-people-exercising-in-a-gym-with-background-shadow-made-using-a-gradient-me-Stock-Vector.jpg");
+            background-color: #cccccc;*/
         }
     </style>
 </head>
@@ -84,7 +81,6 @@ page_protect();
 
                 </a>
             </li>
-
             <li>
                 <a href="new_entry.php">
                     <i class="icon-edit"></i>
@@ -97,9 +93,7 @@ page_protect();
                 <a href="payments.php">
                     <i class="icon-edit"></i>
                     <span>Payments</span>
-
                 </a>
-
             </li>
             <li>
                 <a href="#" data-toggle="dropdown" class='dropdown-toggle'>
@@ -110,8 +104,7 @@ page_protect();
                 <ul class="dropdown-menu">
                     <li>
                         <a href="view_mem.php">View Members</a>
-                    </li>
-                    <li>
+                    </li><li>
                         <a href="table_view.php">View / Enter Schedule</a>
                     </li>
                 </ul>
@@ -130,7 +123,6 @@ page_protect();
                     <span>New Plan</span>
 
                 </a>
-
             </li>
             <li>
                 <a href="#" data-toggle="dropdown" class='dropdown-toggle'>
@@ -141,8 +133,7 @@ page_protect();
                 <ul class="dropdown-menu">
                     <li>
                         <a href="over_members_month.php">Members per Month</a>
-                    </li>
-                    <li>
+                    </li><li>
                         <a href="over_members_year.php">Members per Year</a>
                     </li>
                     <li>
@@ -159,8 +150,7 @@ page_protect();
                 <ul class="dropdown-menu">
                     <li>
                         <a href="unpaid.php">Unpaid Members</a>
-                    </li>
-                    <li>
+                    </li><li>
                         <a href="sub_end.php">Ending Membership</a>
                     </li>
                 </ul>
@@ -168,20 +158,12 @@ page_protect();
             <li>
                 <a href="logout.php">Logout</a>
             </li>
-
-
-            </li>
-
-
         </ul>
         <div class="user">
             <ul class="icon-nav">
-
                 <li>
-                    <a href="logout.php" class='lock-screen' rel='tooltip' title="Sign Out" data-placement="bottom"><i
-                                class="icon-lock"></i></a>
+                    <a href="logout.php" class='lock-screen' rel='tooltip' title="Sign Out" data-placement="bottom"><i class="icon-lock"></i></a>
                 </li>
-
             </ul>
             <div class="dropdown">
                 <a href="#" class='dropdown-toggle' data-toggle="dropdown"><?php
@@ -221,11 +203,11 @@ page_protect();
                             <i class="icon-money"></i>
                             <div class="details">
 									<span class="big">INR <?php
-                                        $date = date('Y-m');
+                                        $date  = date('Y-m');
                                         $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
 
                                         //echo $query;
-                                        $result = mysqli_query($con, $query);
+                                        $result  = mysqli_query($con, $query);
                                         $revenue = 0;
                                         if (mysqli_affected_rows($con) != 0) {
                                             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
@@ -241,12 +223,12 @@ page_protect();
                             <i class="icon-bolt"></i>
                             <div class="details">
 									<span class="big"><?php
-                                        $date = date('Y-m');
+                                        $date  = date('Y-m');
                                         $query = "select COUNT(*) from user_data WHERE wait='no'";
 
                                         //echo $query;
                                         $result = mysqli_query($con, $query);
-                                        $i = 1;
+                                        $i      = 1;
                                         if (mysqli_affected_rows($con) != 0) {
                                             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
                                                 echo $row['COUNT(*)'];
@@ -261,12 +243,12 @@ page_protect();
                             <i class="icon-shopping-cart"></i>
                             <div class="details">
 									<span class="big"><?php
-                                        $date = date('Y-m');
+                                        $date  = date('Y-m');
                                         $query = "select COUNT(*) from user_data WHERE joining LIKE '$date%'";
 
                                         //echo $query;
                                         $result = mysqli_query($con, $query);
-                                        $i = 1;
+                                        $i      = 1;
                                         if (mysqli_affected_rows($con) != 0) {
                                             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
                                                 echo $row['COUNT(*)'];
@@ -281,11 +263,11 @@ page_protect();
                             <i class="icon-money"></i>
                             <div class="details">
 									<span class="big">INR <?php
-                                        $date = date('Y-m');
+                                        $date  = date('Y-m');
                                         $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
 
                                         //echo $query;
-                                        $result = mysqli_query($con, $query);
+                                        $result  = mysqli_query($con, $query);
                                         $revenue = 0;
                                         if (mysqli_affected_rows($con) != 0) {
                                             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
@@ -328,19 +310,18 @@ page_protect();
                 </div>
             </div>
             <div class="row-fluid">
-                <div class="span12">
+                <div class="span9">
                     <ul class="tiles">
-
                         <li class="red">
                             <a href="sub_end.php"><span class='count'><i class="icon-star"></i> <?php
 
-                                    $time = time();
+                                    $time    = time();
                                     $newtime = $time + 864000;
-                                    $query = "select COUNT(*) from subsciption WHERE exp_time < $newtime  AND renewal='yes' ORDER BY expiry DESC";
+                                    $query   = "select COUNT(*) from subsciption WHERE exp_time < $newtime  AND renewal='yes' ORDER BY expiry DESC";
 
                                     //echo $query;
                                     $result = mysqli_query($con, $query);
-                                    $i = 1;
+                                    $i      = 1;
                                     if (mysqli_affected_rows($con) != 0) {
                                         while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
                                             echo $row['COUNT(*)'];
@@ -351,12 +332,12 @@ page_protect();
                         </li>
                         <li class="orange">
                             <a href="unpaid.php"><span class='count'><i class="icon-money"></i> <?php
-                                    $date = date('Y-m');
+                                    $date  = date('Y-m');
                                     $query = "select COUNT(*) from subsciption WHERE bal>0";
 
                                     //echo $query;
                                     $result = mysqli_query($con, $query);
-                                    $i = 1;
+                                    $i      = 1;
                                     if (mysqli_affected_rows($con) != 0) {
                                         while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
                                             echo $row['COUNT(*)'];
@@ -365,33 +346,25 @@ page_protect();
                                     $i = 1;
                                     ?></span><span class='name'>Unpaid Members</span></a>
                         </li>
-
-
-                        </li>
-
                         <li class="blue">
                             <a href="more-userprofile.php"><span><i class="icon-cogs"></i></span><span class='name'>Settings</span></a>
                         </li>
-
                         <li class="green long">
                             <a href="new_entry.php"><span><i class="icon-money"></i></span><span class='name'>New Member Entry</span></a>
                         </li>
-
                         <li class="lime long">
                             <a href="view_mem.php"><span><i class="icon-dashboard"></i></span><span class='name'>View/Edit Members</span></a>
                         </li>
                         <li class="blue">
                             <a href="new_plan.php"><span><i class="icon-shopping-cart"></i></span><span class='name'>New Plan</span></a>
                         </li>
-
                         <li class="red long">
                             <a href="view_mem.php"><span><i class="icon-eye-open"></i></span><span class='name'>Generate Invoice</span></a>
                         <li class="blue long">
                             <a href="change_values.php"><span><i class="icon-cogs"></i></span><span class='name'>Change Membership Details</span></a>
                         </li>
                         <li class="orange long">
-                            <a href="over_members_year.php"><span><i class="icon-calendar"></i></span><span
-                                        class='name'>Members Garphs</span></a>
+                            <a href="over_members_year.php"><span><i class="icon-calendar"></i></span><span class='name'>Members Garphs</span></a>
                         </li>
                         <li class="blue long">
                             <a href="revenue_month.php"><span><i class="icon-bolt"></i></span><span class='name'>Revenue Graph</span></a>
@@ -402,18 +375,17 @@ page_protect();
                         <li class="orange long">
                             <a href="payments.php"><span><i class="icon-calendar"></i></span><span class='name'>Make Payments</span></a>
                         </li>
-
                         <li class="red">
-                            <a href="logout.php"><span class='count'><i class="icon-star"></i> </span><span
-                                        class='name'>Logout</span></a>
+                            <a href="logout.php"><span class='count'><i class="icon-star"></i> </span><span class='name'>Logout</span></a>
                         </li>
                     </ul>
                 </div>
+                <div class="clearfix"></div>
+                <div class="span3"></div>
             </div>
 
 
-        </div>
-    </div>
+        </div>	</div>
 </div>
 <div class="alert alert-info">
     <center>
@@ -423,6 +395,8 @@ page_protect();
 
             by Mithun & Aziz</p></center>
 </div>
+
+
 
 </body>
 

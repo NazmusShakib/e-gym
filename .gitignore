@@ -1,2 +1,5 @@
+/include/db_conn.php
+/dashboard/auth_1_5/db_conn.php
+/dashboard/auth_1_5/connection.php
 /node_modules
 /.idea

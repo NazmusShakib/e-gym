@@ -60,6 +60,12 @@ page_protect();
 	<!-- Apple devices Homescreen icon -->
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
 
+    <style>
+        .container-fluid {
+            background-image: url("https://previews.123rf.com/images/tawng/tawng1106/tawng110600061/9856007-Editable-vector-cutout-of-people-exercising-in-a-gym-with-background-shadow-made-using-a-gradient-me-Stock-Vector.jpg");
+            background-color: #cccccc;
+        }
+    </style>
 </head>
 <body>
 	<div id="navigation">

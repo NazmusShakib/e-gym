@@ -142,13 +142,13 @@ page_protect();
 
     <SCRIPT LANGUAGE="JavaScript">
         function checkIt(evt) {
-            evt = (evt) ? evt : window.event
-            var charCode = (evt.which) ? evt.which : evt.keyCode
+            evt = (evt) ? evt : window.event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
             if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-                status = "This field accepts numbers only."
+                status = "This field accepts numbers only.";
                 return false
             }
-            status = ""
+            status = "";
             return true
         }
     </SCRIPT>
@@ -339,7 +339,7 @@ page_protect();
                                         }
                                         $i = 1;
                                         ?></span>
-                                        <span>Total Members </span>
+                                <span>Total Members </span>
                             </div>
                         </li>
                         <li class='blue'>

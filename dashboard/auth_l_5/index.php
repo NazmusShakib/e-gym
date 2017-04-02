@@ -28,7 +28,9 @@ page_protect();
     <!-- Theme CSS -->
     <link rel="stylesheet" href="../../css/style.css">
     <!-- Color CSS -->
-    <link rel="stylesheet" href="../../css/themes.css">
+    <!--<link rel="stylesheet" href="../../css/themes.css">-->
+
+    <link rel="stylesheet" href="../../css/font-awesome-4.7.0/css/font-awesome.css">
 
     <!-- jQuery -->
     <script src="../../js/jquery.min.js"></script>

@@ -255,7 +255,6 @@ page_protect();
                         <li>
                             <a href="../../login/lock.php">Lock Screen</a>
                         </li>
-
                     </ul>
             </div>
         </div>
@@ -271,96 +270,7 @@ page_protect();
                     <h1>New Plan</h1>
                 </div>
                 <div class="pull-right">
-
-                    <ul class="stats"><li class='blue'>
-                            <i class="icon-money"></i>
-                            <div class="details">
-									<span class="big">INR <?php
-                                        $date  = date('Y-m');
-                                        $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
-
-                                        //echo $query;
-                                        $result  = mysqli_query($con, $query);
-                                        $revenue = 0;
-                                        if (mysqli_affected_rows($con) != 0) {
-                                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                                $revenue = $row['paid'] + $revenue;
-                                            }
-                                        }
-                                        echo $revenue;
-                                        ?></span>
-                                <span>Paid Income This Month</span>
-                            </div>
-                        </li><li class='brown'>
-                            <i class="icon-bolt"></i>
-                            <div class="details">
-									<span class="big"><?php
-                                        $date  = date('Y-m');
-                                        $query = "select COUNT(*) from user_data WHERE wait='no'";
-
-                                        //echo $query;
-                                        $result = mysqli_query($con, $query);
-                                        $i      = 1;
-                                        if (mysqli_affected_rows($con) != 0) {
-                                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                                echo $row['COUNT(*)'];
-                                            }
-                                        }
-                                        $i = 1;
-                                        ?></span>
-                                <span>Total Members </span>
-                            </div>
-                        </li>
-                        <li class='blue'>
-                            <i class="icon-shopping-cart"></i>
-                            <div class="details">
-									<span class="big"><?php
-                                        $date  = date('Y-m');
-                                        $query = "select COUNT(*) from user_data WHERE joining LIKE '$date%'";
-
-                                        //echo $query;
-                                        $result = mysqli_query($con, $query);
-                                        $i      = 1;
-                                        if (mysqli_affected_rows($con) != 0) {
-                                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                                echo $row['COUNT(*)'];
-                                            }
-                                        }
-                                        $i = 1;
-                                        ?></span>
-                                <span>Joined This Month</span>
-                            </div>
-                        </li>
-                        <li class='green'>
-                            <i class="icon-money"></i>
-                            <div class="details">
-									<span class="big">INR <?php
-                                        $date  = date('Y-m');
-                                        $query = "select * from subsciption WHERE  paid_date LIKE '$date%'";
-
-                                        //echo $query;
-                                        $result  = mysqli_query($con, $query);
-                                        $revenue = 0;
-                                        if (mysqli_affected_rows($con) != 0) {
-                                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                                $revenue = $row['total'] + $revenue;
-                                            }
-                                        }
-                                        echo $revenue;
-                                        ?></span>
-                                <span>Income This Month</span>
-                            </div>
-                        </li>
-                        <li class='orange'>
-                            <i class="icon-calendar"></i>
-                            <div class="details">
-                                <span class="big"></span>
-                                <span><?php
-                                    echo date('Z');
-                                    ?></span>
-                            </div>
-                        </li>
-                    </ul>
+                    <?php include('status-widget.php');?>
                 </div>
             </div>
             <div class="breadcrumbs">
@@ -437,7 +347,7 @@ page_protect();
                                 <div class="control-group">
                                     <label for="textfield" class="control-label">Rate :</label>
                                     <div class="controls"><span id="sprytextfield4">
-										  <input type="text" name="rate" id="textfield6" class="input-xlarge" data-rule-required="true" data-rule-minlength="10" placeholder="Mobile / Phone"  placeholder="Rate"  onKeyPress="return checkIt(event)" maxlength="10">
+										  <input type="text" name="rate" id="textfield6" class="input-xlarge" data-rule-required="true" data-rule-minlength="10" placeholder="Rate" onKeyPress="return checkIt(event)" maxlength="10">
 									    <span class="textfieldRequiredMsg">A value is required.</span></span></div>
                                 </div>
 

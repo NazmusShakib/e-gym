@@ -74,7 +74,7 @@ if (isset($_POST['p_name']) && isset($_POST['mem_type']) && isset($_POST['total'
         VALUES ('$p_id','$full_name','$address','$contact','$email','$height','$weight','$date','$age','$proof','$other_proof','$sex','yes', '$mem_picture')";
     if (!mysqli_query($con, $query))
     {
-        echo("Error description: " . mysqli_error($con));
+       // echo("Error description: " . mysqli_error($con));
     }
     //$last_insert_id = mysqli_insert_id();
 

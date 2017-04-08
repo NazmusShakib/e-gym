@@ -71,7 +71,7 @@ if (isset($_POST['p_name']) && isset($_POST['mem_type']) && isset($_POST['total'
     $p_id = $_POST['p_id'];
     // Perform a query, check for error
     $query = "INSERT INTO user_data (newid,name, address, contact, email, height, weight, joining, age, proof, other_proof, sex, wait, pic_add)
-        VALUES ('".$p_id."','".$full_name."','".$address."','".$contact."','".$email."','".$height."','".$weight."','".$date."','".$age."','".$proof."','".$other_proof."','".$sex."','yes', '".$mem_picture."')";
+        VALUES ('".$p_id."','".$full_name."','".$address."','".$contact."','".$email."','".$height."','".$weight."','".$date."','".$age."','".$proof."','".$other_proof."','".$sex."','yes','".$mem_picture."')";
     if (!mysqli_query($con, $query))
     {
         echo("Error description: " . mysqli_error($con));

@@ -400,7 +400,6 @@ page_protect();
                                     </div>
                                 </div>
 
-
                                 <div class="control-group">
                                     <label for="textfield" class="control-label">Age :</label>
                                     <div class="controls"><span id="sprytextfield2">
@@ -409,7 +408,6 @@ page_protect();
                                                  onKeyPress="return checkIt(event)" maxlength="3">
 									    <span class="textfieldRequiredMsg">A value is required.</span></span></div>
                                 </div>
-
 
                                 <div class="control-group">
                                     <label for="textfield" class="control-label">Sex :</label>
@@ -421,7 +419,6 @@ page_protect();
 									    </select>
 									    <span class="selectRequiredMsg">Please select an item.</span></span></div>
                                 </div>
-
 
                                 <div class="control-group">
                                     <label for="textfield" class="control-label">Date :</label>
@@ -442,7 +439,6 @@ page_protect();
                                     </div>
                                 </div>
 
-
                                 <div class="control-group">
                                     <label for="textfield" class="control-label">Contact :</label>
                                     <div class="controls"><span id="sprytextfield4">
@@ -453,7 +449,6 @@ page_protect();
 									    <span class="textfieldRequiredMsg">A value is required.</span></span></div>
                                 </div>
 
-
                                 <div class="control-group">
                                     <label for="textfield" class="control-label">Height :</label>
                                     <div class="controls">
@@ -462,7 +457,6 @@ page_protect();
                                                maxlength="10"> (In FEET)
                                     </div>
                                 </div>
-
 
                                 <div class="control-group">
                                     <label for="textfield" class="control-label">Weight :</label>

@@ -71,16 +71,20 @@ if (isset($_POST['p_name']) && isset($_POST['mem_type']) && isset($_POST['total'
     $p_id = $_POST['p_id'];
     // Perform a query, check for error
     $query = "INSERT INTO user_data (newid,name, address, contact, email, height, weight, joining, age, proof, other_proof, sex, wait, pic_add)
-        VALUES ('$p_id','$full_name','$address','$contact','$email','$height','$weight','$date','$age','$proof','$other_proof','$sex','yes', '$mem_picture')";
+        VALUES ('".$p_id."','".$full_name."','".$address."','".$contact."','".$email."','".$height."','".$weight."','".$date."','".$age."','".$proof."','".$other_proof."','".$sex."','yes', '".$mem_picture."')";
     if (!mysqli_query($con, $query))
     {
-       // echo("Error description: " . mysqli_error($con));
+        echo("Error description: " . mysqli_error($con));
     }
     //$last_insert_id = mysqli_insert_id();
 
     $bal = $total - $paid;
-    mysqli_query($con, "INSERT INTO subsciption (mem_id, name, sub_type, paid_date,total,paid,expiry,invoice,sub_type_name,bal,exp_time,renewal)
-    VALUES ('$p_id','$full_name','$mem_type','$date','$total','$paid','$expiry','$invoice','$name_type','$bal','$exp_time','yes')");
+    $query2 = "INSERT INTO subsciption (mem_id, name, sub_type, paid_date,total,paid,expiry,invoice,sub_type_name,bal,exp_time,renewal)
+    VALUES ('".$p_id."','".$full_name."','".$mem_type."','".$date."','".$total."','".$paid."','".$expiry."','".$invoice."','".$name_type."','".$bal."','".$exp_time."','yes')";
+    if (!mysqli_query($con, $query2))
+    {
+        echo("Error description2: " . mysqli_error($con));
+    }
 
     echo "<head><script>alert('Member Added.');</script></head></html>";
 

@@ -318,75 +318,104 @@ page_protect();
             </div>
             <div class="row-fluid">
                 <div class="span3" style="margin: 0px -80px 0px 0px;">
-                    <ul class="tiles">
-                        <li class="blue">
-                            <a href="sub_end.php"><span class='count'><i class="icon-star"></i> <?php
+                    <div class="sidebar-nav">
+                        <div class="well" style="width:240px; padding: 8px 0; margin-top: 30px;">
+                            <ul class="nav nav-list">
+                                <li class="nav-header">Admin Menu</li>
+                                <li>
+                                    <a href="sub_end.php"><i class="icon-star"></i>
+                                        Ending Membership
+                                        <span class="badge badge-info">
+                                            <?php
+                                            $time    = time();
+                                            $newtime = $time + 864000;
+                                            $query   = "select COUNT(*) from subsciption WHERE exp_time < $newtime  AND renewal='yes' ORDER BY expiry DESC";
+                                            //echo $query;
+                                            $result = mysqli_query($con, $query);
+                                            $i      = 1;
+                                            if (mysqli_affected_rows($con) != 0) {
+                                                while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                                                    echo $row['COUNT(*)'];
+                                                }
+                                            }
+                                            $i = 1;
+                                            ?>
+                                        </span>
+                                    </a>
+                                </li>
 
-                                    $time    = time();
-                                    $newtime = $time + 864000;
-                                    $query   = "select COUNT(*) from subsciption WHERE exp_time < $newtime  AND renewal='yes' ORDER BY expiry DESC";
+                                <li>
+                                    <a href="unpaid.php">
+                                        <i class="icon-money"></i>
+                                        Unpaid Members
+                                        <span class="badge badge-info">
+                                            <?php
+                                            $date  = date('Y-m');
+                                            $query = "select COUNT(*) from subsciption WHERE bal>0";
 
-                                    //echo $query;
-                                    $result = mysqli_query($con, $query);
-                                    $i      = 1;
-                                    if (mysqli_affected_rows($con) != 0) {
-                                        while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                            echo $row['COUNT(*)'];
-                                        }
-                                    }
-                                    $i = 1;
-                                    ?></span><span class='name'>Ending Membership</span></a>
-                        </li>
-                        <li class="blue">
-                            <a href="unpaid.php"><span class='count'><i class="icon-money"></i> <?php
-                                    $date  = date('Y-m');
-                                    $query = "select COUNT(*) from subsciption WHERE bal>0";
+                                            //echo $query;
+                                            $result = mysqli_query($con, $query);
+                                            $i      = 1;
+                                            if (mysqli_affected_rows($con) != 0) {
+                                                while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+                                                    echo $row['COUNT(*)'];
+                                                }
+                                            }
+                                            $i = 1;
+                                            ?>
+                                        </span>
+                                    </a>
+                                </li>
 
-                                    //echo $query;
-                                    $result = mysqli_query($con, $query);
-                                    $i      = 1;
-                                    if (mysqli_affected_rows($con) != 0) {
-                                        while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                            echo $row['COUNT(*)'];
-                                        }
-                                    }
-                                    $i = 1;
-                                    ?></span><span class='name'>Unpaid Members</span></a>
-                        </li>
-                        <li class="blue">
-                            <a href="more-userprofile.php"><span><i class="icon-cogs"></i></span><span class='name'>Settings</span></a>
-                        </li>
-                        <li class="blue">
-                            <a href="new_entry.php"><span><i class="icon-money"></i></span><span class='name'>New Member Entry</span></a>
-                        </li>
-                        <li class="blue">
-                            <a href="view_mem.php"><span><i class="icon-dashboard"></i></span><span class='name'>View/Edit Members</span></a>
-                        </li>
-                        <li class="blue">
-                            <a href="new_plan.php"><span><i class="icon-shopping-cart"></i></span><span class='name'>New Plan</span></a>
-                        </li>
-                        <li class="blue">
-                            <a href="view_mem.php"><span><i class="icon-eye-open"></i></span><span class='name'>Generate Invoice</span></a>
+                                <li>
+                                    <a href="new_entry.php">
+                                        <i class="icon-user"></i>
+                                        New Member Entry
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="view_mem.php">
+                                        <i class="icon icon-group"></i>
+                                        View/Edit Members
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="new_plan.php">
+                                        <i class="icon-shopping-cart"></i>
+                                        New Plan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="view_mem.php">
+                                        <i class="icon-eye-open"></i>
+                                        Generate Invoice
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="change_values.php">
+                                        <i class="icon icon-edit"></i>
+                                        Edit Plans
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="payments.php">
+                                        <i class="icon-calendar"></i>
+                                        Make Payments
+                                    </a>
+                                </li>
 
-                        <li class="blue">
-                            <a href="change_values.php"><span><i class="icon-cogs"></i></span><span class='name'>Change Membership Details</span></a>
-                        </li>
-                        <!--<li class="orange long">
-                            <a href="over_members_year.php"><span><i class="icon-calendar"></i></span><span class='name'>Members Garphs</span></a>
-                        </li>
-                        <li class="blue long">
-                            <a href="revenue_month.php"><span><i class="icon-bolt"></i></span><span class='name'>Revenue Graph</span></a>
-                        </li>-->
-                        <li class="blue">
-                            <a href="change_values.php"><span><i class="icon-eye-open"></i></span><span class='name'>Edit Plans</span></a>
-                        </li>
-                        <li class="blue">
-                            <a href="payments.php"><span><i class="icon-calendar"></i></span><span class='name'>Make Payments</span></a>
-                        </li>
-                        <li class="blue">
-                            <a href="logout.php"><span class='count'><i class="icon-star"></i> </span><span class='name'>Logout</span></a>
-                        </li>
-                    </ul>
+
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="more-userprofile.php">
+                                        <span><i class="icon-cogs"></i>
+                                        Settings
+                                    </a>
+                                </li>
+                                <li><a href="logout.php"><i class="icon-share"></i> Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="span9" style="margin-right: 50px;">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
